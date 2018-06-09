@@ -59,7 +59,7 @@ class RecipeReviewCard extends React.Component {
             <IconButton aria-label="Share">
               <ShareIcon />
             </IconButton>
-            <IconButton href={`/profile/?id=${id}`} aria-label="Add to favorites">
+            <IconButton href={`/gasuma/profile/?id=${id}`} aria-label="Add to favorites">
               <ArrowForwardIcon />
             </IconButton>
           </CardActions>

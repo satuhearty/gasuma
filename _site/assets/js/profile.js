@@ -49637,7 +49637,7 @@ function ButtonAppBar(props) {
           { type: 'title', color: 'inherit', className: classes.flex },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_5_material_ui_Button___default.a,
-            { href: '/', color: 'inherit', className: classes.titleButton },
+            { href: '/gasuma', color: 'inherit', className: classes.titleButton },
             'GASUMA'
           )
         ),
