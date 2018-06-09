@@ -3,7 +3,7 @@ title: GASUMA
 email: nikamirulmukmeen@gmail.com
 description: This is Gagasan Sunnah Malaysia
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://satuhearty.github.io/gasuma" # the base hostname & protocol for your site
 author:
 street_address:
 city:
