@@ -1,0 +1,10 @@
+
+{% if page.type == 'home' %}
+  <script src="{{ '/assets/js/home.js' | absolute_url }}"></script>
+{% endif %}
+{% if page.type == 'browse' %}
+  <script src="{{ '/assets/js/browse.js' | absolute_url }}"></script>
+{% endif %}
+{% if page.type == 'profile' %}
+  <script src="{{ '/assets/js/profile.js' | absolute_url }}"></script>
+{% endif %}

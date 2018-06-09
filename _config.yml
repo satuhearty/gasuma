@@ -1,0 +1,47 @@
+# Site settings
+title: GASUMA
+email: nikamirulmukmeen@gmail.com
+description: This is Gagasan Sunnah Malaysia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
+
+icon: fa-diamond # Font Awesome class for your site's icon
+
+# Social settings
+facebook_url: https://www.facebook.com/satuhearty
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/satuhearty
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url: https://www.twitter.com/satuhearty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, webpack, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
