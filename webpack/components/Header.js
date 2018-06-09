@@ -37,8 +37,8 @@ function ButtonAppBar(props) {
               GASUMA
             </Button>
           </Typography>
-          <Button href="/browse" color="contrast">Browse</Button>
-          <Button href="/profile/?id=1" color="contrast">Profile</Button>
+          <Button href="/gasuma/browse" color="contrast">Browse</Button>
+          <Button href="/gasuma/profile/?id=1" color="contrast">Profile</Button>
           <Button color="contrast">Login</Button>
         </Toolbar>
       </AppBar>
